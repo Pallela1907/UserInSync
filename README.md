@@ -1,43 +1,61 @@
-# Getting Started with Create React App
+# Running with direct hosted link:
+- Input () in your browser and done !
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Running without direct Link :
+## Initialization of App
+Open code editor with any folder and open terminal. 
+```
+npx create-react-app "App Name"
+cd "App Name"
+```
 
-In the project directory, you can run:
+## File structure 
+-Replace the src folder created by the src folder in this github repository. <br>
+-Make sure your file structure contains these :
+```
+src/
+│
+├── components/
+│   ├── Login.js
+│   ├── UserList.js
+│   ├── EditUser.js
+│
+├── pages/
+│   ├── HomePage.js
+│   ├── LoginPage.js
+│
+├── utils/
+│   ├── api.js
+│
+├── App.js
+├── index.js
+└── styles/
+    ├── styles.css
+```
 
-### `npm start`
+## Possible dependencies (Assuming you already have npm in your system)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+npm install axios react-router-dom bootstrap
+npm intsall web-vitals
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Running the code
+```
+npm start
+```
+-This will run the web application in your local server which is  (http://localhost:3000/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Testing the web app
+- Click on Go to Login to direct yourself to the Level 1 (Authentication Page) <br>
+- Enter this email and password to login : (eve.holt@reqres.in) & (cityslicka) <br>
+- Upon successful login, you can see the Users listed, browse through list using Next and Previous buttons.
+- Added functionality of search bar to search the present page user easily.
+- Test the Edit and Delete buttons for every profile displayed.
+- Ctrl + C and type Y in the terminal to stop the development server of the website. 
 
 ## Learn More
 
