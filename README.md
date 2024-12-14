@@ -1,6 +1,3 @@
-# Running with direct hosted link:
-- Input () in your browser and done !
-
 
 # Running without direct Link :
 ## Initialization of App
